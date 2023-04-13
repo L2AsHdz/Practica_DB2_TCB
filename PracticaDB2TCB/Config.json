@@ -1,0 +1,30 @@
+{
+  "Movements": [
+    { "Id": 1, "Value": 100 }
+  ],
+  "Processes": [
+    {
+      "ValueId": 1,
+      "Amount": 5,
+      "Timeout": 500,
+      "ExecutionTime": 15000,
+      "Increase": true,
+      "LockTable": true
+    },
+    {
+      "ValueId": 1,
+      "Amount": 10,
+      "Timeout": 400,
+      "ExecutionTime": 10000,
+      "Increase": false,
+      "LockTable": true
+    }
+  ],
+  "Connection": {
+    "Host": "localhost",
+    "Port": 3307,
+    "Database": "PracticaDB2_TCB",
+    "User": "asael",
+    "Password": "qclvbQs69hhaCmImXBlFOw=="
+  }
+}
